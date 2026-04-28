@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "moduleDetection": "force",
+    "baseUrl": ".",
+    "paths": {
+      "@the-check/shared": ["packages/shared/src/index.ts"],
+      "@the-check/matching": ["packages/matching/src/index.ts"],
+      "@the-check/providers": ["packages/providers/src/index.ts"]
+    }
+  }
+}
