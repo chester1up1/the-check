@@ -43,6 +43,14 @@ Users paste a song link from one provider and get equivalent links for the same 
 - `packages/matching`: normalization and confidence scoring
 - `packages/providers`: provider adapter contracts and provider-specific helpers
 
+## Design system direction
+
+- Active UI direction: `Night Tape`
+- Theme logic is token-based through CSS custom properties in `apps/web/app/globals.css`
+- Accent palette can be swapped centrally through the `data-accent` attribute on the root `<html>` element
+- Current preset: `orange`
+- Included alternates: `lime`, `orange`, `red`
+
 ## Getting started
 
 ```bash
