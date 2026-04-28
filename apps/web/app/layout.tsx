@@ -12,7 +12,7 @@ type RootLayoutProps = {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html data-accent="orange" lang="en">
       <body>{children}</body>
     </html>
   );

@@ -123,3 +123,14 @@ Response:
 - Prefer deterministic transforms before fuzzy scoring.
 - Cache source resolution and provider search responses.
 - Make scoring explainable for debugging.
+
+## Frontend theming
+
+- The web app uses semantic design tokens instead of component-level hardcoded colors.
+- Theme tokens live in `apps/web/app/globals.css`.
+- Accent palettes are switched with the root `data-accent` attribute.
+- Current supported accent presets:
+  - `lime`
+  - `orange`
+  - `red`
+- Components should consume semantic tokens such as `--primary`, `--muted`, `--border`, and `--foreground` so visual restyling does not require component rewrites.
